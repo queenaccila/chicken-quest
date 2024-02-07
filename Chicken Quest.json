@@ -231,7 +231,7 @@
         "alwaysLoaded": false,
         "file": "assets/Chicken_chicken-glide.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Chicken_chicken-glide.png\"}",
         "name": "Chicken\\chicken-glide",
         "smoothed": false,
         "userAdded": false
@@ -240,7 +240,7 @@
         "alwaysLoaded": false,
         "file": "assets/Chicken_chicken-glide2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Chicken_chicken-glide2.png\"}",
         "name": "Chicken\\chicken-glide2",
         "smoothed": false,
         "userAdded": false
@@ -1234,6 +1234,24 @@
         "name": "assets\\New image3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Glide.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Glide",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Glide2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Glide2.png\"}",
+        "name": "Glide2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1245,7 +1263,14 @@
       "name": "Chicken",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Glide_Gravity",
+          "type": "number",
+          "value": 50
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -1996,43 +2021,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Chicken\\chicken-glide",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 18.5
-                      },
-                      {
-                        "x": 22,
-                        "y": 18.5
-                      },
-                      {
-                        "x": 22,
-                        "y": 32
-                      },
-                      {
-                        "x": 9,
-                        "y": 32
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Chicken\\chicken-glide2",
+                  "image": "Glide2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3436,7 +3425,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19561100536770282,
+        "zoomFactor": 0.3437520241612492,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6975,7 +6964,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.25314140012986486,
+        "zoomFactor": 0.10001786170017583,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7000,110 +6989,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 2,
-          "height": 2974,
-          "layer": "",
-          "name": "Dash",
-          "persistentUuid": "667d5517-1e8b-4b8b-b185-49cac11eeefc",
-          "width": 3478,
-          "x": 5321,
-          "y": -1545,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 4,
-          "height": 1959,
-          "layer": "",
-          "name": "Dash_Enemy",
-          "persistentUuid": "6739315d-2cfd-4321-9ede-a36c06be97fc",
-          "width": 4868,
-          "x": 8794,
-          "y": -1543,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 3,
-          "height": 2028,
-          "layer": "",
-          "name": "Glide",
-          "persistentUuid": "e1225235-351f-404d-95f6-0313f6d5044f",
-          "width": 5844,
-          "x": 13661,
-          "y": -537,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 5,
-          "height": 2988,
-          "layer": "",
-          "name": "Key",
-          "persistentUuid": "812890d9-813f-43c3-8253-1e05629b89d6",
-          "width": 3946,
-          "x": 19505,
-          "y": -540,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 4,
-          "height": 1435,
-          "layer": "",
-          "name": "Final",
-          "persistentUuid": "9c2c740c-30f0-4d27-91fa-cd3064d8b677",
-          "width": 2511,
-          "x": 23448,
-          "y": 1013,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 13,
-          "height": 630,
-          "layer": "",
-          "name": "Platform_Borders",
-          "persistentUuid": "372407f5-d0ac-493e-acc0-0671f00436cf",
-          "width": 559,
-          "x": -113,
-          "y": 659,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
-          "height": 441,
-          "layer": "",
-          "name": "Platform_Borders",
-          "persistentUuid": "b30bc053-c591-4fde-ab60-2ab999bafff7",
-          "width": 75,
-          "x": 433,
-          "y": 718,
+          "height": 820,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "c09d2431-ae31-45f8-82e4-92595af91764",
+          "width": 2197,
+          "x": 96,
+          "y": 156,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -7112,46 +7005,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 441,
+          "depth": 0,
+          "height": 118,
           "layer": "",
-          "name": "Platform_Borders",
-          "persistentUuid": "9d482cc6-7306-4210-a40a-205f7df76e1e",
-          "width": 75,
-          "x": 492,
-          "y": 778,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 441,
-          "layer": "",
-          "name": "Platform_Borders",
-          "persistentUuid": "a179fc56-68fd-47e2-8793-c8d62988003e",
-          "width": 75,
-          "x": 550,
-          "y": 837,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 398,
-          "layer": "",
-          "name": "Platform_Borders",
-          "persistentUuid": "b777ffea-0296-4549-bc90-6f7350b0add6",
-          "width": 2088,
-          "x": 616,
-          "y": 897,
+          "name": "Chicken",
+          "persistentUuid": "24544a8d-1a0f-40c5-a659-bf2646e8c9d0",
+          "width": 118,
+          "x": 257,
+          "y": 537,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -7160,15 +7021,1055 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 4,
-          "height": 118,
+          "depth": 1,
+          "height": 54,
           "layer": "",
-          "name": "Chicken",
-          "persistentUuid": "640b5183-c4b5-4751-8f53-a4acea719339",
-          "width": 118,
-          "x": 231,
-          "y": 536,
+          "name": "Platform_Borders",
+          "persistentUuid": "1892ed1f-b90b-4c2e-985d-80e294674f51",
+          "width": 479,
+          "x": 26,
+          "y": 660,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "8e1690be-2dd3-42ab-8298-c4d17c013d31",
+          "width": 2278,
+          "x": 694,
+          "y": 896,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ee4e8ac2-8b9a-4635-99fa-9692e15315db",
+          "width": 250,
+          "x": 2954,
+          "y": 1193,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f3a249ae-3ca0-4104-b460-a9bb8f12dc9e",
+          "width": 1224,
+          "x": 3187,
+          "y": 839,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a4162ed4-4e17-4fdf-bfb5-08208f54b7f0",
+          "width": 479,
+          "x": 4405,
+          "y": 1194,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 333,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a7597de3-4465-40aa-95af-71cce9bd3cc9",
+          "width": 35,
+          "x": 2939,
+          "y": 896,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 333,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "34b9023d-312d-441b-bb65-228d89700058",
+          "width": 35,
+          "x": 3188,
+          "y": 868,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 355,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "c0162f9f-1be0-4f57-a95a-dcd95f3b0d51",
+          "width": 35,
+          "x": 4374,
+          "y": 866,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 533,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "46dd85ec-034e-42e1-b342-db9a8b707011",
+          "width": 35,
+          "x": 4880,
+          "y": 692,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "4cfbfecc-5736-4a85-b41d-508f328499f0",
+          "width": 92,
+          "x": 482,
+          "y": 717,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "7c81aea1-9ed1-4102-91ab-ce2cea520dd2",
+          "width": 92,
+          "x": 548,
+          "y": 778,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "21daccb3-4840-4de4-b1ab-ee4937f9a7de",
+          "width": 92,
+          "x": 612,
+          "y": 837,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 2133,
+          "layer": "",
+          "name": "Dash",
+          "persistentUuid": "497e9615-6640-462d-941c-4c59aa7bc2a2",
+          "width": 2607,
+          "x": 5319,
+          "y": -707,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1953,
+          "layer": "",
+          "name": "Dash_Enemy",
+          "persistentUuid": "1a78dea7-9131-4953-8256-cf9c947a0274",
+          "width": 4853,
+          "x": 7925,
+          "y": -705,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 1998,
+          "layer": "",
+          "name": "Glide",
+          "persistentUuid": "f6e4e9a8-3e8e-439d-ab66-a18ec80f927d",
+          "width": 4528,
+          "x": 12776,
+          "y": 304,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 3219,
+          "layer": "",
+          "name": "Key",
+          "persistentUuid": "5090de44-5eab-4669-9153-ca9c45454d14",
+          "width": 3861,
+          "x": 17303,
+          "y": 17,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 1410,
+          "layer": "",
+          "name": "Final",
+          "persistentUuid": "ddb639f9-dc96-40d2-8049-cbbb70d5c170",
+          "width": 2468,
+          "x": 21164,
+          "y": 1827,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 35,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "2f8a5477-81c1-4d55-b57b-951538f96190",
+          "width": 675,
+          "x": 4877,
+          "y": 658,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 611,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "b18a2202-7d81-499e-86fa-9877e01c245b",
+          "width": 32,
+          "x": 5514,
+          "y": 693,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "10a5333a-3da1-49c7-b044-96891602f5c7",
+          "width": 844,
+          "x": 6750,
+          "y": 658,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "5a73c9ec-2f93-4622-a1ec-43a5e09ec9a1",
+          "width": 87,
+          "x": 7577,
+          "y": 598,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "284c31b0-225d-4d68-9497-c98fd67ad961",
+          "width": 87,
+          "x": 7634,
+          "y": 538,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "87ad1892-5c96-4120-b95b-9f5abb8d2d3e",
+          "width": 87,
+          "x": 7695,
+          "y": 480,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "1c50215b-08f7-4f7d-bcbd-0bd1cdf24191",
+          "width": 87,
+          "x": 7753,
+          "y": 420,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "0aa9dab5-5821-455e-b25e-3f0bd82015f3",
+          "width": 87,
+          "x": 7813,
+          "y": 361,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "c94d68db-9f52-4680-b2c8-f238993411c5",
+          "width": 1997,
+          "x": 7873,
+          "y": 302,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "b0d23390-80d4-4b9b-a300-b7d6c5a54fa0",
+          "width": 145,
+          "x": 9848,
+          "y": 361,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f8090ada-ae24-4d01-9d7f-1317950c5f84",
+          "width": 145,
+          "x": 9965,
+          "y": 421,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a2505169-ff38-492f-bb9f-23718bdfed97",
+          "width": 145,
+          "x": 10083,
+          "y": 480,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "49919eb9-5ac2-40f3-8e5e-fd521075b638",
+          "width": 145,
+          "x": 10204,
+          "y": 539,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "25d01260-ec48-445c-9164-087b362004ec",
+          "width": 145,
+          "x": 10321,
+          "y": 599,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "42f3bf1a-3ff6-4ee6-a7b4-f0457c786a60",
+          "width": 145,
+          "x": 10436,
+          "y": 658,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a1a0fe04-3023-41ce-9a78-545dc8e9f078",
+          "width": 439,
+          "x": 10555,
+          "y": 716,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "7705f22f-e9c4-4816-a8ac-6b3e4c368735",
+          "width": 145,
+          "x": 10910,
+          "y": 775,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "27cf76ea-351e-4b6d-bae7-4886949266a7",
+          "width": 145,
+          "x": 10969,
+          "y": 835,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f02f1397-5434-493e-a63b-5360919bfc28",
+          "width": 1330,
+          "x": 11081,
+          "y": 894,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 199,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "fd80eff2-2a3f-4816-b7bd-6582ee9a9b09",
+          "width": 40,
+          "x": 12371,
+          "y": 694,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ba5af3da-84ad-4dea-8aff-bcd7861d6790",
+          "width": 1337,
+          "x": 12372,
+          "y": 658,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 426,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "eaf43dab-5843-44a2-b78e-353f8fda1dff",
+          "width": 39,
+          "x": 13669,
+          "y": 696,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "bc71ba8a-3a6f-4254-83a4-bda4009cbf84",
+          "width": 275,
+          "x": 10478,
+          "y": 185,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "203c48e1-3709-4750-971c-921239a8c5bd",
+          "width": 457,
+          "x": 11008,
+          "y": 66,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "83cc999b-779c-40d1-b4cb-eb786db557f3",
+          "width": 343,
+          "x": 11067,
+          "y": 182,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 112,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "bf91f224-17e1-480c-ad11-05467ec0d0eb",
+          "width": 341,
+          "x": 11778,
+          "y": 243,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "606ca647-8882-45d4-908f-d7c3e8eda138",
+          "width": 218,
+          "x": 12019,
+          "y": 302,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 481,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "c11b88fb-4e6a-4522-af46-8bfeadba3ce9",
+          "width": 32,
+          "x": 16083,
+          "y": 1751,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "422564d9-80f4-4415-a55f-34df6711ffe8",
+          "width": 3088,
+          "x": 16079,
+          "y": 1717,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1284,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "2ef12a51-759c-4b22-8d35-bf0ef45c3b25",
+          "width": 32,
+          "x": 18845,
+          "y": 1946,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "b3b37785-fd81-4fcc-8fc7-b9446e49be5d",
+          "width": 87,
+          "x": 18837,
+          "y": 1891,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "9c087d08-f50e-475c-934f-915c6facd816",
+          "width": 140,
+          "x": 18902,
+          "y": 1831,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 77,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "0b8ce65f-f3e6-48a8-bb22-cd5de4310b54",
+          "width": 137,
+          "x": 19029,
+          "y": 1749,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "09e7006c-0cef-4e52-8ad5-478312eb7fcd",
+          "width": 216,
+          "x": 19416,
+          "y": 1540,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 108,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "fa0f3e3c-dd83-4fd7-b1ba-f88ad690451b",
+          "width": 219,
+          "x": 19825,
+          "y": 1307,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "205ab6a0-d77d-430f-8c96-2222faf1fa51",
+          "width": 399,
+          "x": 19883,
+          "y": 1892,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 168,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f09aad6e-37f8-4d43-ae6a-1e6f41f53647",
+          "width": 116,
+          "x": 20702,
+          "y": 1307,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 169,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "7484a04b-d6d3-41c7-8598-e38d96f0a440",
+          "width": 59,
+          "x": 20045,
+          "y": 1014,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 109,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ea099aa5-9a84-4421-8e0e-9a98ebb4dd46",
+          "width": 289,
+          "x": 20105,
+          "y": 1072,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 120,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ad6f6a47-310d-46f9-87ce-5e92cdfb7305",
+          "width": 39,
+          "x": 20013,
+          "y": 893,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 86,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "688c6f4a-70f1-41a1-ab5c-504073a7f791",
+          "width": 47,
+          "x": 20053,
+          "y": 808,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "0ec09556-3702-4a12-bd7d-5c07faed3da8",
+          "width": 704,
+          "x": 20101,
+          "y": 802,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 51,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "40c230cf-1a98-4068-af2e-ad1f27fe1556",
+          "width": 46,
+          "x": 20770,
+          "y": 836,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 933,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "fa96e3d4-8a20-4cd3-9b35-e83327b815e1",
+          "width": 143,
+          "x": 20824,
+          "y": 888,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1104,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ea8b1ddf-5737-43c1-bff0-0d5a9643afec",
+          "width": 160,
+          "x": 20821,
+          "y": 2126,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "6ba58d19-3ad7-4255-a2bc-7735fe60d3af",
+          "width": 2317,
+          "x": 20969,
+          "y": 2769,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 621,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ce9977e5-cbdb-471b-8598-9ed90aa21551",
+          "width": 35,
+          "x": 23288,
+          "y": 2180,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 698,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "0ea31e62-2b26-445a-a258-3734f1a9ed69",
+          "width": 1357,
+          "x": 2301,
+          "y": 281,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 802,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "1aba61ba-69f4-47a1-8aff-46c9aaaf2cbf",
+          "width": 1386,
+          "x": 3676,
+          "y": 174,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7179,11 +8080,11 @@
           "height": 0,
           "layer": "Rooms",
           "name": "Camera_Red",
-          "persistentUuid": "ecc42fc8-54fe-4498-8c42-1f35d6d1ab07",
+          "persistentUuid": "804f5ce0-080f-4d72-956a-d33ecdd10ecf",
           "width": 0,
-          "x": 0,
-          "y": -1,
-          "zOrder": 11,
+          "x": 5080,
+          "y": -253,
+          "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7192,14 +8093,30 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1083,
+          "height": 1433,
           "layer": "Rooms",
           "name": "Camera_Red",
-          "persistentUuid": "303b2a0a-39e6-450c-b2ec-949946416aba",
-          "width": 2843,
-          "x": 1924,
-          "y": -2,
-          "zOrder": 12,
+          "persistentUuid": "dbb1ab02-873f-4010-bc6b-66bb2561db27",
+          "width": 2548,
+          "x": 7036,
+          "y": -383,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1528,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "0dc17fb8-d255-4c8f-bca1-c07fe583245c",
+          "width": 3522,
+          "x": 9607,
+          "y": -478,
+          "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7208,14 +8125,78 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 462,
+          "height": 1807,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "e6690b66-7b2a-4860-9220-08e1e6d8f113",
+          "width": 4478,
+          "x": 13196,
+          "y": 167,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 1936,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "bdfd3d2f-7d82-4574-9b0d-6120b375dc12",
+          "width": 3382,
+          "x": 17693,
+          "y": 405,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1281,
+          "layer": "Rooms",
+          "name": "Camera_Red",
+          "persistentUuid": "e639556d-a1b3-4e81-a4f4-cecdf6b2a828",
+          "width": 2277,
+          "x": 21084,
+          "y": 1609,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 58,
+          "layer": "",
+          "name": "Walk_Dust",
+          "persistentUuid": "1c37a698-88f1-4a35-aa1a-38a7c883ef29",
+          "width": 58,
+          "x": 232,
+          "y": 602,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 242,
           "layer": "",
           "name": "Platform_Borders",
-          "persistentUuid": "89b51e11-b137-463e-9db0-bc5b6b680793",
-          "width": 1053,
-          "x": 2954,
-          "y": 837,
-          "zOrder": 13,
+          "persistentUuid": "aaefdee4-d007-4914-b3d5-feba9c5df97a",
+          "width": 38,
+          "x": 81,
+          "y": 418,
+          "zOrder": 56,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7224,14 +8205,222 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1419,
-          "layer": "Rooms",
-          "name": "Camera_Red",
-          "persistentUuid": "40efbb28-2e1a-4e49-89c9-c86e2ef55361",
-          "width": 2523,
-          "x": 4770,
-          "y": -599,
-          "zOrder": 14,
+          "height": 62,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "50565492-4013-4dfc-a70d-092eb2fc66f8",
+          "width": 92,
+          "x": 84,
+          "y": 358,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "0aa9c9c0-65e2-486c-accc-54d0d34fdbbd",
+          "width": 618,
+          "x": 169,
+          "y": 323,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "501a8fa4-e79e-48f6-bbe5-8fbd6c0adc47",
+          "width": 124,
+          "x": 783,
+          "y": 353,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "91210a87-f382-4f7f-b286-168a8caf8c6f",
+          "width": 132,
+          "x": 906,
+          "y": 416,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "894b66b8-9bea-4339-b28b-9e560b4981cb",
+          "width": 66,
+          "x": 1036,
+          "y": 468,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 104,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a9cc0aa6-c5ec-466f-906d-d6ca8acf910e",
+          "width": 61,
+          "x": 1104,
+          "y": 545,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 83,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "7ed55537-9df9-47f3-bb01-429cdaa6aca0",
+          "width": 956,
+          "x": 1169,
+          "y": 629,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "97a9d778-c008-41bb-a33f-aace3daafeaf",
+          "width": 73,
+          "x": 2125,
+          "y": 597,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ab5c8c95-4e33-463c-a06b-371aa29f50aa",
+          "width": 73,
+          "x": 2185,
+          "y": 537,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 179,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "d11ed32a-56f8-4837-98f2-9582d016cfc1",
+          "width": 73,
+          "x": 2253,
+          "y": 358,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1055,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "86ea7681-4035-45de-a615-871a2b074d12",
+          "width": 63,
+          "x": 2327,
+          "y": -698,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "3629d1bb-182d-4f27-9720-53e7b23a36a6",
+          "width": 201,
+          "x": 7595,
+          "y": 737,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 118,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "b02b9aaf-5278-4ac8-b7a0-b8690496b405",
+          "width": 97,
+          "x": 7756,
+          "y": 769,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 238,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "01cca403-f610-4e0b-9407-ccaab0a6c710",
+          "width": 32,
+          "x": 7813,
+          "y": 889,
+          "zOrder": 63,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7243,17 +8432,201 @@
           "height": 639,
           "layer": "",
           "name": "Platform_Borders",
-          "persistentUuid": "0c04d6d7-07c0-40c3-85be-76665075f277",
-          "width": 1370,
-          "x": 4442,
-          "y": 661,
-          "zOrder": 15,
+          "persistentUuid": "8f5e74ec-181a-4fb8-85f6-3c177dfdf032",
+          "width": 32,
+          "x": 6749,
+          "y": -704,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "d87fec15-350b-49a5-bd07-748709f9c324",
+          "width": 2729,
+          "x": 6777,
+          "y": -113,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 56,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "1c75f2ef-c37e-424d-a588-de04d105fdcb",
+          "width": 121,
+          "x": 9504,
+          "y": -174,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "aac7ef02-63d3-4ce8-8dcd-2eb9fc7701d2",
+          "width": 68,
+          "x": 9622,
+          "y": -232,
+          "zOrder": 67,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f304da91-e69d-48fc-a3e6-17a5ee51e90b",
+          "width": 58,
+          "x": 9689,
+          "y": -291,
+          "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "5d8d7009-5364-454b-a4f6-46590cf06732",
+          "width": 183,
+          "x": 9743,
+          "y": -353,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "1204a65c-027d-4c1a-ba10-918ce00249f9",
+          "width": 894,
+          "x": 9922,
+          "y": -386,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 61,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "9a571d75-2552-421e-9017-4f2570f769ab",
+          "width": 234,
+          "x": 10777,
+          "y": -353,
+          "zOrder": 71,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 62,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "2c9c50a2-b5a1-4e4d-8fd2-340a2c2e2c8e",
+          "width": 454,
+          "x": 11010,
+          "y": -295,
+          "zOrder": 72,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 410,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f1dc4725-e12d-4817-8645-f976151ba267",
+          "width": 31,
+          "x": 11433,
+          "y": -704,
+          "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "Platform_Borders",
+          "rightMargin": 0,
+          "texture": "assets\\New image2.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 1080,
+          "leftMargin": 0,
+          "name": "Camera_Red",
+          "rightMargin": 0,
+          "texture": "assets\\New image3.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 1920,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
         {
           "assetStoreId": "",
           "name": "WASD",
@@ -7361,46 +8734,6 @@
             "animationSpeedScale": 1,
             "animationFps": 4
           }
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 32,
-          "leftMargin": 0,
-          "name": "Platform_Borders",
-          "rightMargin": 0,
-          "texture": "assets\\New image2.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": true,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "bottomMargin": 0,
-          "height": 1080,
-          "leftMargin": 0,
-          "name": "Camera_Red",
-          "rightMargin": 0,
-          "texture": "assets\\New image3.png",
-          "tiled": false,
-          "topMargin": 0,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 1920,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -7466,6 +8799,14 @@
               "parameters": [
                 "Camera_Red"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Walk_Dust"
+              ]
             }
           ]
         },
@@ -7491,6 +8832,723 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Chicken",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Animation",
+                    "=",
+                    "\"Run\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Walk_Dust",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsJumping"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Animation",
+                    "=",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Walk_Dust"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "LShift"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::SimulateDashKey"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "HorizontalDash",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Animation",
+                    "=",
+                    "\"Fall\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Walk_Dust"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::Gravity"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "PlatformerObject",
+                        "=",
+                        "Chicken.Glide_Gravity"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "Space"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "Animation",
+                        "=",
+                        "\"Glide\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Flippable",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Walk_Dust",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Flippable",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Walk_Dust",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Walk_Dust"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Walk_Dust",
+                    "=",
+                    "Chicken.X() + 100",
+                    "=",
+                    "Chicken.Y() + 60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Walk_Dust",
+                    "=",
+                    "Chicken.X() - 40",
+                    "=",
+                    "Chicken.Y() + 60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Gliding\n"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "=",
+                    "800"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Animation",
+                    "=",
+                    "\"Fall\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Wait glide\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::Gravity"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "=",
+                    "800"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Dash Tween",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "HorizontalDash",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Animation",
+                    "=",
+                    "\"Dash\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Shadow",
+                    "Chicken.X()",
+                    "Chicken.Y()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Opacity",
+                    "=",
+                    "200"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Tween",
+                    "\"dash\"",
+                    "Chicken.X()",
+                    "\"linear\"",
+                    "0.5",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Scale",
+                    "=",
+                    "3.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "=",
+                    "Chicken.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Tween",
+                    "\"flash\"",
+                    "\"189;189;189\"",
+                    "\"linear\"",
+                    "0.01",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Tween",
+                    "\"shadow\"",
+                    "0",
+                    "\"linear\"",
+                    "0.1",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "=",
+                    "Chicken.Sprite()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Tween",
+                    "\"flash\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectColorTween2"
+                  },
+                  "parameters": [
+                    "Shadow",
+                    "Tween",
+                    "\"flash\"",
+                    "\"255;255;255\"",
+                    "\"linear\"",
+                    "0.1",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -7505,10 +9563,21 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Rooms",
+          "name": "",
           "renderingType": "",
-          "visibility": false,
-          "cameras": [],
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -7538,21 +9607,10 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": true,
-          "name": "",
+          "name": "Rooms",
           "renderingType": "",
           "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -7638,6 +9696,342 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "Elairyx, @Bouh",
+      "category": "Game mechanic",
+      "extensionNamespace": "",
+      "fullName": "Checkpoints",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWZsYWctdmFyaWFudCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik02LDNBMSwxIDAgMCwxIDcsNFY0Ljg4QzguMDYsNC40NCA5LjUsNCAxMSw0QzE0LDQgMTQsNiAxNiw2QzE5LDYgMjAsNCAyMCw0VjEyQzIwLDEyIDE5LDE0IDE2LDE0QzEzLDE0IDEzLDEyIDExLDEyQzgsMTIgNywxNCA3LDE0VjIxSDVWNEExLDEgMCAwLDEgNiwzWiIgLz48L3N2Zz4=",
+      "name": "Checkpoints",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/flag-variant.svg",
+      "shortDescription": "Respawn objects at checkpoints.",
+      "version": "1.0.1",
+      "description": [
+        "This extension can save checkpoints and respawn objects at the last one.",
+        "",
+        "The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer))."
+      ],
+      "origin": {
+        "identifier": "Checkpoints",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "position",
+        "checkpoint"
+      ],
+      "authorIds": [
+        "30b1QQoYi1gQQHzIjMlNY8aLyYV2",
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Update a checkpoint of an object.",
+          "fullName": "Save checkpoint",
+          "functionType": "Action",
+          "name": "SaveCheckpoint",
+          "sentence": "Save checkpoint _PARAM4_ of _PARAM1_ to _PARAM2_ (x-axis), _PARAM3_ (y-axis)",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"X\"+GetArgumentAsString(\"CheckpointName\")]",
+                    "=",
+                    "GetArgumentAsNumber(\"CoordinateX\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "ToSaveObject",
+                    "__Checkpoints.Position[\"Y\"+GetArgumentAsString(\"CheckpointName\")]",
+                    "=",
+                    "GetArgumentAsNumber(\"CoordinateY\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Save checkpoint of object",
+              "name": "ToSaveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "X position",
+              "name": "CoordinateX",
+              "type": "expression"
+            },
+            {
+              "description": "Y position",
+              "name": "CoordinateY",
+              "type": "expression"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Change the position of the object to the saved checkpoint.",
+          "fullName": "Load checkpoint",
+          "functionType": "Action",
+          "name": "LoadCheckpoint",
+          "sentence": "Move _PARAM2_ to checkpoint _PARAM3_ of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ObjectVariableChildExists"
+                          },
+                          "parameters": [
+                            "ToLoadObject",
+                            "__Checkpoints.Position",
+                            "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "StrEqual"
+                          },
+                          "parameters": [
+                            "GetArgumentAsString(\"SetIgnoreUndefined\")",
+                            "!=",
+                            "\"true\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "ObjectVariableChildExists"
+                              },
+                              "parameters": [
+                                "ToLoadObject",
+                                "__Checkpoints.Position",
+                                "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "ToMoveObject",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"X\" + GetArgumentAsString(\"CheckpointName\")])",
+                    "=",
+                    "ToLoadObject.Variable(__Checkpoints.Position[\"Y\" + GetArgumentAsString(\"CheckpointName\")])"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Load checkpoint from object",
+              "name": "ToLoadObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Change position of object",
+              "name": "ToMoveObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            },
+            {
+              "description": "Ignore (possibly) empty checkpoints",
+              "longDescription": "Loading not yet saved checkpoints will (by default) set the position to the coordinate 0;0. Select \"yes\" to completely ignore non-existant checkpoints. To define an alternative checkpoint for it, create a new event and use the \"Checkpoint exists\" condition, save the wanted checkpoint as the action.",
+              "name": "SetIgnoreUndefined",
+              "supplementaryInformation": "[\"Set to 0\",\"Ignore\",\"Reset to initial position\"]",
+              "type": "yesorno"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if a checkpoint has a position saved / does exist.",
+          "fullName": "Checkpoint exists",
+          "functionType": "Condition",
+          "name": "CheckpointExist",
+          "sentence": "Checkpoint _PARAM2_ of _PARAM1_ exists",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableChildExists"
+                  },
+                  "parameters": [
+                    "ToCheckObject",
+                    "__Checkpoints.Position",
+                    "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"X\" + GetArgumentAsString(\"CheckpointName\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "ObjectVariableChildExists"
+                      },
+                      "parameters": [
+                        "ToCheckObject",
+                        "__Checkpoints.Position",
+                        "\"Y\" + GetArgumentAsString(\"CheckpointName\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Check checkpoint from object",
+              "name": "ToCheckObject",
+              "type": "objectList"
+            },
+            {
+              "description": "Checkpoint name",
+              "name": "CheckpointName",
+              "supplementaryInformation": "objectCheckpoint",
+              "type": "identifier"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "Camera",
