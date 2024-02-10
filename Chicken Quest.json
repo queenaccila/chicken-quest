@@ -437,7 +437,7 @@
         "alwaysLoaded": false,
         "file": "assets/Fall2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fall2.png\"}",
         "name": "Fall2",
         "smoothed": false,
         "userAdded": false
@@ -446,7 +446,7 @@
         "alwaysLoaded": false,
         "file": "assets/Fall3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Fall3.png\"}",
         "name": "Fall3",
         "smoothed": false,
         "userAdded": false
@@ -1603,6 +1603,15 @@
         "name": "Death14",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image4",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1781,11 +1790,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -1817,11 +1826,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -1866,11 +1875,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -1902,11 +1911,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -1938,11 +1947,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -1974,11 +1983,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2010,11 +2019,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2046,11 +2055,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2082,11 +2091,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2131,11 +2140,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2167,11 +2176,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2203,11 +2212,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2239,11 +2248,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2275,11 +2284,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2324,11 +2333,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2360,11 +2369,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2382,42 +2391,6 @@
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Fall",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 9,
-                        "y": 18.5
-                      },
-                      {
-                        "x": 22,
-                        "y": 18.5
-                      },
-                      {
-                        "x": 22,
-                        "y": 30
-                      },
-                      {
-                        "x": 9,
-                        "y": 30
-                      }
-                    ]
-                  ]
-                },
                 {
                   "hasCustomCollisionMask": true,
                   "image": "Fall2",
@@ -2445,11 +2418,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2481,11 +2454,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2530,11 +2503,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2566,11 +2539,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2602,11 +2575,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2638,11 +2611,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2674,11 +2647,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -2710,11 +2683,11 @@
                       },
                       {
                         "x": 22,
-                        "y": 30
+                        "y": 32
                       },
                       {
                         "x": 9,
-                        "y": 30
+                        "y": 32
                       }
                     ]
                   ]
@@ -7507,7 +7480,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.22916801610750184,
+        "zoomFactor": 1.9785760519131397,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7583,7 +7556,7 @@
           "persistentUuid": "1892ed1f-b90b-4c2e-985d-80e294674f51",
           "width": 479,
           "x": 26,
-          "y": 660,
+          "y": 657,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -7599,7 +7572,7 @@
           "persistentUuid": "8e1690be-2dd3-42ab-8298-c4d17c013d31",
           "width": 2278,
           "x": 694,
-          "y": 896,
+          "y": 892,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -7631,7 +7604,7 @@
           "persistentUuid": "f3a249ae-3ca0-4104-b460-a9bb8f12dc9e",
           "width": 1224,
           "x": 3187,
-          "y": 839,
+          "y": 836,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -7743,7 +7716,7 @@
           "persistentUuid": "7c81aea1-9ed1-4102-91ab-ce2cea520dd2",
           "width": 92,
           "x": 548,
-          "y": 778,
+          "y": 776,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -7855,7 +7828,7 @@
           "persistentUuid": "2f8a5477-81c1-4d55-b57b-951538f96190",
           "width": 675,
           "x": 4877,
-          "y": 658,
+          "y": 657,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -7871,7 +7844,7 @@
           "persistentUuid": "b18a2202-7d81-499e-86fa-9877e01c245b",
           "width": 32,
           "x": 5514,
-          "y": 693,
+          "y": 691,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -7887,7 +7860,7 @@
           "persistentUuid": "10a5333a-3da1-49c7-b044-96891602f5c7",
           "width": 844,
           "x": 6750,
-          "y": 658,
+          "y": 657,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -7983,7 +7956,7 @@
           "persistentUuid": "c94d68db-9f52-4680-b2c8-f238993411c5",
           "width": 1997,
           "x": 7873,
-          "y": 302,
+          "y": 301,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -9351,14 +9324,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 210,
+          "depth": 11,
+          "height": 312,
           "layer": "",
           "name": "Fire",
           "persistentUuid": "36d4d628-3118-4b4c-a533-ecc39a4486bf",
-          "width": 210,
-          "x": 2968,
-          "y": 872,
+          "width": 312,
+          "x": 2916,
+          "y": 882,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -9376,6 +9349,38 @@
           "x": 2505,
           "y": 721,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 7,
+          "height": 115,
+          "layer": "",
+          "name": "Blue_Slime",
+          "persistentUuid": "70ea3a96-08d9-4fe0-9c2b-3e3808e616b7",
+          "width": 115,
+          "x": 3660,
+          "y": 638,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 3,
+          "layer": "",
+          "name": "Enemy_Platformer",
+          "persistentUuid": "54641cfc-d197-4abf-8430-7b474a06a104",
+          "width": 99,
+          "x": 3668,
+          "y": 753,
+          "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9531,7 +9536,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Blue_Slime",
           "type": "Sprite",
@@ -9567,19 +9572,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9603,19 +9608,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9639,19 +9644,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9675,19 +9680,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9711,19 +9716,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9747,19 +9752,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9783,19 +9788,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 6
+                            "x": 2,
+                            "y": 10
                           },
                           {
-                            "x": 16,
-                            "y": 6
+                            "x": 14,
+                            "y": 10
                           },
                           {
-                            "x": 16,
+                            "x": 14,
                             "y": 16
                           },
                           {
-                            "x": 0,
+                            "x": 2,
                             "y": 16
                           }
                         ]
@@ -9815,7 +9820,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "Burn",
@@ -9845,11 +9858,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -9881,11 +9894,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -9917,11 +9930,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -9953,11 +9966,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -9989,11 +10002,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -10025,11 +10038,11 @@
                         [
                           {
                             "x": 6,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
-                            "y": 23
+                            "y": 25
                           },
                           {
                             "x": 26,
@@ -10451,6 +10464,25 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "Enemy_Platformer",
+          "texture": "New image4",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -10498,6 +10530,9 @@
           },
           {
             "objectName": "Checkpoint"
+          },
+          {
+            "objectName": "Enemy_Platformer"
           }
         ]
       },
@@ -10507,7 +10542,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Start Scene",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10547,6 +10581,14 @@
                   },
                   "parameters": [
                     "Walk_Dust"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Enemy_Platformer"
                   ]
                 }
               ]
@@ -11164,121 +11206,96 @@
                       ]
                     }
                   ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Respawn state = 0"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "State",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "PlatformerObject",
-                    "yes"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Death state = 1"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "State",
-                    "=",
-                    "1"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AdvancedJump::HorizontalDash::AbortDash"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "HorizontalDash",
-                    ""
-                  ]
                 },
                 {
-                  "type": {
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::AbortJump"
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
                   },
-                  "parameters": [
-                    "Chicken",
-                    "PlatformerObject"
-                  ]
+                  "comment": "Respawn state = 0"
                 },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "PlatformerObject",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.1"
-                  ]
-                }
-              ],
-              "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "State",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "PlatformerObject",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlatformBehavior::JumpSpeed"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "PlatformerObject",
+                        "=",
+                        "500"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Death state = 1"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "State",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AdvancedJump::HorizontalDash::AbortDash"
+                      },
+                      "parameters": [
+                        "Chicken",
+                        "HorizontalDash",
+                        ""
+                      ]
+                    },
                     {
                       "type": {
                         "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -11292,76 +11309,8 @@
                     }
                   ]
                 }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "Fire",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Fire",
-                    "Animation",
-                    "=",
-                    "\"Burn\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Fire",
-                    "Chicken",
-                    "",
-                    "",
-                    "no"
-                  ]
-                }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVarObjet"
-                  },
-                  "parameters": [
-                    "Chicken",
-                    "State",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "DebuggerTools::ConsoleLog"
-                  },
-                  "parameters": [
-                    "\"Animation: \" + Chicken.Animation::Name() + \" Frame: \" + ToString(Chicken.Sprite())",
-                    "\"info\"",
-                    ""
-                  ]
-                }
-              ]
+              "parameters": []
             }
           ],
           "parameters": []
@@ -11481,6 +11430,88 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Fire",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Must have \"platform\" behaviour collision for death animation to activate"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Fire",
+                    "Animation",
+                    "=",
+                    "\"Burn\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Fire",
+                    "Chicken",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::JumpSpeed"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "State",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Slime",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -11499,12 +11530,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
