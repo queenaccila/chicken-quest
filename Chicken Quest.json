@@ -4842,6 +4842,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0/10",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 100,
+            "color": "0;0;0"
           }
         },
         {
@@ -5525,6 +5545,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Collect All\n10 Coins!",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "center",
+            "characterSize": 75,
+            "color": "0;0;0"
           }
         },
         {
@@ -7212,6 +7252,26 @@
             "b": 0,
             "g": 0,
             "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Game Over!",
+            "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
+            "textAlignment": "left",
+            "characterSize": 250,
+            "color": "0;0;0"
           }
         },
         {
@@ -7263,6 +7323,26 @@
                 "b": 0,
                 "g": 0,
                 "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Play Again",
+                "font": "mononoki-Regular.ttf",
+                "textAlignment": "center",
+                "characterSize": 50,
+                "color": "0;0;0"
               }
             },
             "Pressed": {
@@ -7480,7 +7560,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9785760519131397,
+        "zoomFactor": 0.34118560234736767,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -9346,8 +9426,8 @@
           "name": "Checkpoint",
           "persistentUuid": "b175a768-a459-4627-ad2f-8632573191fe",
           "width": 175,
-          "x": 2505,
-          "y": 721,
+          "x": 388,
+          "y": 477,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -9356,30 +9436,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 7,
-          "height": 115,
+          "depth": 5,
+          "height": 81,
           "layer": "",
           "name": "Blue_Slime",
-          "persistentUuid": "70ea3a96-08d9-4fe0-9c2b-3e3808e616b7",
-          "width": 115,
-          "x": 3660,
-          "y": 638,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 3,
-          "layer": "",
-          "name": "Enemy_Platformer",
-          "persistentUuid": "54641cfc-d197-4abf-8430-7b474a06a104",
-          "width": 99,
-          "x": 3668,
-          "y": 753,
+          "persistentUuid": "5c10a884-4564-49da-8183-d2f61531ca93",
+          "width": 81,
+          "x": 986,
+          "y": 810,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -9822,10 +9886,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -10476,10 +10540,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ]
@@ -11237,16 +11301,6 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Chicken",
-                        "PlatformerObject",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "PlatformBehavior::JumpSpeed"
                       },
                       "parameters": [
@@ -11288,23 +11342,83 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "AdvancedJump::HorizontalDash::AbortDash"
+                        "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentSpeed"
                       },
                       "parameters": [
                         "Chicken",
-                        "HorizontalDash",
-                        ""
+                        "PlatformerObject",
+                        "=",
+                        "0"
                       ]
                     },
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                        "value": "Arreter"
                       },
                       "parameters": [
-                        "Chicken",
-                        "Animation",
-                        "=",
-                        "\"Death\""
+                        "Chicken"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        },
+                        {
+                          "type": {
+                            "value": "AnyKeyPressed"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Chicken",
+                            "Animation",
+                            "=",
+                            "\"Death\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CompareTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"hold\"",
+                            ">=",
+                            "0.1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetTimer"
+                          },
+                          "parameters": [
+                            "",
+                            "\"hold\""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -11444,7 +11558,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Must have \"platform\" behaviour collision for death animation to activate"
+              "comment": "Must have \"platform\" behaviour collision for death animation to activate (if landing on top)"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15808,7 +15922,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "PressedLabelOffsetY"
             },
             {
@@ -15820,7 +15933,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "hidden": false,
               "name": "LeftPadding"
             },
             {
@@ -15832,7 +15944,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "hidden": false,
               "name": "RightPadding"
             },
             {
@@ -15844,7 +15955,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "hidden": false,
               "name": "TopPadding"
             },
             {
@@ -15856,7 +15966,6 @@
               "extraInformation": [
                 "Label"
               ],
-              "hidden": false,
               "name": "BottomPadding"
             },
             {
@@ -15866,7 +15975,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HoveredFadeOutDuration"
             }
           ],
@@ -15890,6 +15998,26 @@
                 "b": 0,
                 "g": 0,
                 "r": 0
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "Text",
+                "font": "",
+                "textAlignment": "",
+                "characterSize": 20,
+                "color": "0;0;0"
               }
             },
             {
@@ -16986,7 +17114,6 @@
               "description": "Time that the object is invisible",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HalfPeriodTime"
             },
             {
@@ -17561,7 +17688,6 @@
               "description": "Time between flashes",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HalfPeriodTime"
             },
             {
@@ -18205,7 +18331,6 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
-              "hidden": false,
               "name": "TweenBehavior"
             },
             {
@@ -18216,7 +18341,6 @@
               "description": "Time between flashes",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HalfPeriodTime"
             },
             {
@@ -18961,7 +19085,6 @@
               "description": "Time between flashes",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "HalfPeriodTime"
             },
             {
@@ -19625,7 +19748,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Up"
             },
             {
@@ -19635,7 +19757,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Left"
             },
             {
@@ -19645,7 +19766,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Right"
             },
             {
@@ -19655,7 +19775,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Down"
             },
             {
@@ -19667,7 +19786,6 @@
               "extraInformation": [
                 "TopDownMovementBehavior::TopDownMovementBehavior"
               ],
-              "hidden": false,
               "name": "Topdown"
             }
           ],
@@ -20334,7 +20452,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Up"
             },
             {
@@ -20344,7 +20461,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Left"
             },
             {
@@ -20354,7 +20470,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Down"
             },
             {
@@ -20364,7 +20479,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Right"
             },
             {
@@ -20374,7 +20488,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "Jump"
             },
             {
@@ -20386,7 +20499,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "Platformer"
             }
           ],
@@ -21661,7 +21773,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableAnimationChanges"
             },
             {
@@ -21671,7 +21782,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "EnableHorizontalFlipping"
             },
             {
@@ -21681,7 +21791,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "IdleAnimationName"
             },
             {
@@ -21691,7 +21800,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "RunAnimationName"
             },
             {
@@ -21701,7 +21809,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpAnimationName"
             },
             {
@@ -21711,7 +21818,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "FallAnimationName"
             },
             {
@@ -21721,7 +21827,6 @@
               "description": "",
               "group": "Animation names",
               "extraInformation": [],
-              "hidden": false,
               "name": "ClimbAnimationName"
             },
             {
@@ -21733,7 +21838,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerBehavior"
             },
             {
@@ -21745,7 +21849,6 @@
               "extraInformation": [
                 "AnimatableCapability::AnimatableBehavior"
               ],
-              "hidden": false,
               "name": "Animation"
             },
             {
@@ -21757,7 +21860,6 @@
               "extraInformation": [
                 "FlippableCapability::FlippableBehavior"
               ],
-              "hidden": false,
               "name": "Flippable"
             }
           ],
@@ -23353,7 +23455,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerBehavior"
             },
             {
@@ -23364,7 +23465,6 @@
               "description": "",
               "group": "Coyote time",
               "extraInformation": [],
-              "hidden": false,
               "name": "CoyoteTimeFrameDuration"
             },
             {
@@ -23394,7 +23494,6 @@
               "description": "",
               "group": "Air jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirJumpCountMaximum"
             },
             {
@@ -23404,7 +23503,6 @@
               "description": "",
               "group": "Air jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "AreFloorJumpCountedAsAirJump"
             },
             {
@@ -26011,7 +26109,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             },
             {
@@ -26023,7 +26120,6 @@
               "extraInformation": [
                 "AdvancedJump::PlatformerConfigurationStack"
               ],
-              "hidden": false,
               "name": "PlatformerConfigurationStack"
             },
             {
@@ -26034,7 +26130,6 @@
               "description": "",
               "group": "Wall jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "JumpTimeFrame"
             },
             {
@@ -26045,7 +26140,6 @@
               "description": "",
               "group": "Wall jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallJumpSpeedX"
             },
             {
@@ -26056,7 +26150,6 @@
               "description": "",
               "group": "Wall jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallJumpAccelerationX"
             },
             {
@@ -26067,7 +26160,6 @@
               "description": "",
               "group": "Wall jump",
               "extraInformation": [],
-              "hidden": false,
               "name": "SideSpeedSustainTime"
             },
             {
@@ -26078,7 +26170,6 @@
               "description": "",
               "group": "Wall sliding",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallSlidingGravity"
             },
             {
@@ -26089,7 +26180,6 @@
               "description": "",
               "group": "Wall sliding",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallSlidingMaxFallingSpeed"
             },
             {
@@ -26100,7 +26190,6 @@
               "description": "",
               "group": "Wall sliding",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallSlidingSpeedAbsorption"
             },
             {
@@ -26111,7 +26200,6 @@
               "description": "",
               "group": "Wall sliding",
               "extraInformation": [],
-              "hidden": false,
               "name": "WallSlidingFallingSpeedMin"
             },
             {
@@ -26121,7 +26209,6 @@
               "description": "",
               "group": "Wall sliding",
               "extraInformation": [],
-              "hidden": false,
               "name": "AutomaticSliding"
             },
             {
@@ -26531,7 +26618,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             },
             {
@@ -26543,7 +26629,6 @@
               "extraInformation": [
                 "AdvancedJump::PlatformerConfigurationStack"
               ],
-              "hidden": false,
               "name": "PlatformerConfigurationStack"
             },
             {
@@ -26554,7 +26639,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DiveMaxFallingSpeed"
             },
             {
@@ -26565,7 +26649,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DiveInitialFallingSpeed"
             },
             {
@@ -26576,7 +26659,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DiveGravity"
             },
             {
@@ -27600,7 +27682,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             },
             {
@@ -27612,7 +27693,6 @@
               "extraInformation": [
                 "AdvancedJump::PlatformerConfigurationStack"
               ],
-              "hidden": false,
               "name": "PlatformerConfigurationStack"
             },
             {
@@ -27622,7 +27702,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashInitialSpeed"
             },
             {
@@ -27632,7 +27711,6 @@
               "description": "",
               "group": "Sustain",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashSustainDurationMin"
             },
             {
@@ -27642,7 +27720,6 @@
               "description": "",
               "group": "Sustain",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashSustainDurationMax"
             },
             {
@@ -27652,7 +27729,6 @@
               "description": "",
               "group": "Sustain",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashSustainAcceleration"
             },
             {
@@ -27662,7 +27738,6 @@
               "description": "",
               "group": "Sustain",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashSustainSpeedMax"
             },
             {
@@ -27672,7 +27747,6 @@
               "description": "",
               "group": "Sustain",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashSustainGravity"
             },
             {
@@ -27682,7 +27756,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashDecceleration"
             },
             {
@@ -27692,7 +27765,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "DashGravity"
             },
             {
@@ -27702,7 +27774,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "CoolDownDuration"
             },
             {
@@ -28397,7 +28468,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             }
           ],
@@ -29436,7 +29506,6 @@
               "description": "Automatically add tilemap collision objects to the scene when ready.",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "AutoAdd"
             }
           ],
@@ -33972,7 +34041,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "LeftwardSpeed"
             },
             {
@@ -33982,7 +34050,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "RightwardSpeed"
             },
             {
@@ -33992,7 +34059,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "UpwardSpeed"
             },
             {
@@ -34002,7 +34068,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "DownwardSpeed"
             },
             {
@@ -34012,7 +34077,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowOnX"
             },
             {
@@ -34022,7 +34086,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowOnY"
             },
             {
@@ -34033,7 +34096,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaLeft"
             },
             {
@@ -34044,7 +34106,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaRight"
             },
             {
@@ -34055,7 +34116,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaTop"
             },
             {
@@ -34066,7 +34126,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FollowFreeAreaBottom"
             },
             {
@@ -34077,7 +34136,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraOffsetX"
             },
             {
@@ -34088,7 +34146,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraOffsetY"
             },
             {
@@ -34099,7 +34156,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "CameraDelay"
             },
             {
@@ -34110,7 +34166,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "ForecastTime"
             },
             {
@@ -34121,7 +34176,6 @@
               "description": "",
               "group": "Timing",
               "extraInformation": [],
-              "hidden": false,
               "name": "ForecastHistoryDuration"
             },
             {
@@ -34392,7 +34446,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "LeftwardSpeedMax"
             },
             {
@@ -34403,7 +34456,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "RightwardSpeedMax"
             },
             {
@@ -34414,7 +34466,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "UpwardSpeedMax"
             },
             {
@@ -34425,7 +34476,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "DownwardSpeedMax"
             },
             {
@@ -34692,7 +34742,6 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
-              "hidden": false,
               "name": "PlatformerCharacter"
             },
             {
@@ -34704,7 +34753,6 @@
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
-              "hidden": false,
               "name": "SmoothCamera"
             },
             {
@@ -34725,7 +34773,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirFollowFreeAreaTop"
             },
             {
@@ -34736,7 +34783,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirFollowFreeAreaBottom"
             },
             {
@@ -34747,7 +34793,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorFollowFreeAreaTop"
             },
             {
@@ -34758,7 +34803,6 @@
               "description": "",
               "group": "Position",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorFollowFreeAreaBottom"
             },
             {
@@ -34768,7 +34812,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirUpwardSpeed"
             },
             {
@@ -34778,7 +34821,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirDownwardSpeed"
             },
             {
@@ -34788,7 +34830,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorUpwardSpeed"
             },
             {
@@ -34798,7 +34839,6 @@
               "description": "",
               "group": "Catch-up speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorDownwardSpeed"
             },
             {
@@ -34809,7 +34849,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirUpwardSpeedMax"
             },
             {
@@ -34820,7 +34859,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "AirDownwardSpeedMax"
             },
             {
@@ -34831,7 +34869,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorUpwardSpeedMax"
             },
             {
@@ -34842,7 +34879,6 @@
               "description": "",
               "group": "Maximum speed",
               "extraInformation": [],
-              "hidden": false,
               "name": "FloorDownwardSpeedMax"
             }
           ],
@@ -35639,7 +35675,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "JSON"
             },
             {
@@ -35679,7 +35714,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "AnimationSpeed"
             }
           ],
@@ -36127,7 +36161,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteX"
             },
             {
@@ -36137,7 +36170,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteY"
             },
             {
@@ -36147,7 +36179,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteSpacing"
             },
             {
@@ -36645,7 +36676,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteX"
             },
             {
@@ -36655,7 +36685,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteY"
             },
             {
@@ -36665,7 +36694,6 @@
               "description": "",
               "group": "",
               "extraInformation": [],
-              "hidden": false,
               "name": "SpriteSpacing"
             },
             {
