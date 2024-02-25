@@ -8083,7 +8083,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5250860067783104,
+        "zoomFactor": 0.7315786463753845,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10356,8 +10356,8 @@
           "name": "Bat",
           "persistentUuid": "7428a39c-30ea-412a-b83c-0ce01b68c7cb",
           "width": 100,
-          "x": 1409,
-          "y": 736,
+          "x": 1414,
+          "y": 683,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -14225,6 +14225,16 @@
                     "=",
                     "\"Died\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    "TimedBackAndForthMirroredMovement",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14452,17 +14462,74 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+              "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
                     "Bat",
                     "Animation",
                     "=",
-                    "\"Fly\""
+                    "\"Idle\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Bat",
+                    "TimedBackAndForthMirroredMovement",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Bat",
+                        "Animation",
+                        "=",
+                        "\"Fly\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "Bat",
+                        "TimedBackAndForthMirroredMovement",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Bat",
+                        "=",
+                        "Bat.Y() + 20"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -14491,12 +14558,6 @@
                     "HorizontalDash",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
                 }
               ],
               "actions": [
@@ -14510,13 +14571,16 @@
                     "=",
                     "\"Died\""
                   ]
-                }
-              ],
-              "events": [
+                },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Bat",
+                    "TimedBackAndForthMirroredMovement",
+                    ""
+                  ]
                 }
               ]
             },
@@ -14555,6 +14619,11 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
             }
           ],
           "parameters": []
