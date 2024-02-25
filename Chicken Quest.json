@@ -1838,6 +1838,36 @@
         "name": "NewTiledSprite",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "file": "Audio/473583__nox_sound__whoosh_rope.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\473583__nox_sound__whoosh_rope.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/345299__scrampunk__okay.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\345299__scrampunk__okay.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Audio/PUNCH_SQUELCH_HEAVY_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Audio\\PUNCH_SQUELCH_HEAVY_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -7793,10 +7823,27 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2705012603962816,
+        "zoomFactor": 0.15392788923484899,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Enemy",
+          "objects": [
+            {
+              "name": "Blue_Slime"
+            }
+          ]
+        },
+        {
+          "name": "Enemy_Environment",
+          "objects": [
+            {
+              "name": "Fire"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "Recent_Checkpoint_X",
@@ -8151,13 +8198,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 802,
+          "height": 704,
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "1aba61ba-69f4-47a1-8aff-46c9aaaf2cbf",
-          "width": 1386,
-          "x": 3676,
-          "y": 174,
+          "width": 1629,
+          "x": 3668,
+          "y": 272,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -8165,14 +8212,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 979,
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "804f5ce0-080f-4d72-956a-d33ecdd10ecf",
-          "width": 0,
-          "x": 5080,
-          "y": -253,
+          "width": 2068,
+          "x": 5324,
+          "y": 78,
           "zOrder": 49,
           "numberProperties": [],
           "stringProperties": [],
@@ -8182,12 +8230,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1433,
+          "height": 1225,
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "dbb1ab02-873f-4010-bc6b-66bb2561db27",
-          "width": 2548,
-          "x": 7036,
+          "width": 2179,
+          "x": 7405,
           "y": -383,
           "zOrder": 50,
           "numberProperties": [],
@@ -8198,13 +8246,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 2,
-          "height": 1528,
+          "height": 1169,
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "0dc17fb8-d255-4c8f-bca1-c07fe583245c",
-          "width": 4196,
+          "width": 4192,
           "x": 9607,
-          "y": -478,
+          "y": -359,
           "zOrder": 51,
           "numberProperties": [],
           "stringProperties": [],
@@ -8218,7 +8266,7 @@
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "e6690b66-7b2a-4860-9220-08e1e6d8f113",
-          "width": 3856,
+          "width": 4538,
           "x": 13818,
           "y": 167,
           "zOrder": 52,
@@ -8234,8 +8282,8 @@
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "bdfd3d2f-7d82-4574-9b0d-6120b375dc12",
-          "width": 3382,
-          "x": 17693,
+          "width": 3478,
+          "x": 18381,
           "y": 405,
           "zOrder": 53,
           "numberProperties": [],
@@ -8246,13 +8294,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1281,
+          "height": 1375,
           "layer": "Rooms",
           "name": "Camera_Red",
           "persistentUuid": "e639556d-a1b3-4e81-a4f4-cecdf6b2a828",
-          "width": 2277,
-          "x": 21084,
-          "y": 1609,
+          "width": 2444,
+          "x": 21880,
+          "y": 1568,
           "zOrder": 54,
           "numberProperties": [],
           "stringProperties": [],
@@ -8602,9 +8650,9 @@
           "layer": "",
           "name": "Death_Zone",
           "persistentUuid": "b2b1577f-b78f-46fd-b860-8fe5c21a1d30",
-          "width": 2513,
-          "x": 5585,
-          "y": 956,
+          "width": 2545,
+          "x": 5581,
+          "y": 1187,
           "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
@@ -9466,7 +9514,7 @@
           "layer": "",
           "name": "Death_Zone",
           "persistentUuid": "d600093b-8139-48ca-9f32-0dee39b5c62b",
-          "width": 3285,
+          "width": 3716,
           "x": 13681,
           "y": 2477,
           "zOrder": 100,
@@ -9501,6 +9549,486 @@
           "x": 301,
           "y": 459,
           "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 75,
+          "layer": "",
+          "name": "Blue_Slime",
+          "persistentUuid": "803b91a4-1082-46f8-98b1-c0e5738d6a6b",
+          "width": 75,
+          "x": 1185,
+          "y": 819,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "layer": "",
+          "name": "Death_Zone",
+          "persistentUuid": "36c8dcaa-9e27-43fb-945b-223333f7efeb",
+          "width": 1946,
+          "x": 19797,
+          "y": 2487,
+          "zOrder": 102,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 52,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f1c7da64-057f-4011-ae68-4b5c58dd9fff",
+          "width": 3090,
+          "x": 6924,
+          "y": -115,
+          "zOrder": 103,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 591,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "84a22f9d-853b-4a05-a4c3-3cb3a5ace5ed",
+          "width": 32,
+          "x": 6920,
+          "y": -710,
+          "zOrder": 104,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "df92662d-9915-4f35-837c-4ce71a79e3ba",
+          "width": 119,
+          "x": 10015,
+          "y": -174,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "2fd5774f-6ef3-4eee-b243-1cb3d9c65bf1",
+          "width": 119,
+          "x": 10086,
+          "y": -233,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "b7ffa40a-7899-4acf-a965-29e5e306ff0b",
+          "width": 119,
+          "x": 10154,
+          "y": -293,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "485ccc7f-b8fa-40de-985e-b812daab9eaa",
+          "width": 204,
+          "x": 10268,
+          "y": -354,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "1b1d3dc4-2174-40cc-b2f6-7b558abc8cf5",
+          "width": 960,
+          "x": 10470,
+          "y": -412,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "38edcead-16b4-449c-8429-707ddd3768d4",
+          "width": 262,
+          "x": 11431,
+          "y": -359,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 59,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "cb117d41-2f08-42cc-8d6f-803b810c7eac",
+          "width": 500,
+          "x": 11694,
+          "y": -301,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 397,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "06723340-6f57-4071-b900-4b0d7606baa0",
+          "width": 34,
+          "x": 12164,
+          "y": -701,
+          "zOrder": 105,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "ea26e74e-9af8-4be0-9282-56b4a4ff7afd",
+          "width": 320,
+          "x": 11085,
+          "y": 182,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 107,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "e5b528c6-bda0-4845-8030-745e394c7756",
+          "width": 511,
+          "x": 11691,
+          "y": 64,
+          "zOrder": 107,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "d992e5da-12ca-475e-a94a-0f507cfbba32",
+          "width": 386,
+          "x": 11752,
+          "y": 172,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 111,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "50cb3b0a-287c-40d8-b7bb-4edfe5c27668",
+          "width": 388,
+          "x": 12548,
+          "y": 242,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "1ad77c28-239a-4af0-a2af-c743880db3cc",
+          "width": 246,
+          "x": 12822,
+          "y": 301,
+          "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "f45292e9-79dc-4446-89b0-f433b9fc4901",
+          "width": 558,
+          "x": 19052,
+          "y": 1248,
+          "zOrder": 111,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "4c0e8520-6c3e-47f6-aa61-a1147acab9c7",
+          "width": 69,
+          "x": 18984,
+          "y": 1128,
+          "zOrder": 112,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 53,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "3fc7712a-e4b1-480e-9757-8c324c2d5c12",
+          "width": 56,
+          "x": 18929,
+          "y": 1072,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "6ca9e66e-4248-4754-a954-fefd15a5f910",
+          "width": 63,
+          "x": 18868,
+          "y": 950,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 124,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "66096cbd-fe49-4e5d-99b9-e5c2e42eb609",
+          "width": 58,
+          "x": 18808,
+          "y": 826,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "9d08abd6-08dc-40f4-b443-07e949ab7503",
+          "width": 59,
+          "x": 18750,
+          "y": 716,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 408,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "bd26f6de-6401-457b-a060-84cbd7a92221",
+          "width": 59,
+          "x": 18691,
+          "y": 307,
+          "zOrder": 113,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 55,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "7bddadc3-b61e-40d8-93a4-567f889a2880",
+          "width": 309,
+          "x": 19602,
+          "y": 1189,
+          "zOrder": 114,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "e55b271c-dd07-4cff-a80c-2d575cf05166",
+          "width": 131,
+          "x": 19899,
+          "y": 1129,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "8d8b96a0-9209-4e1f-bf4f-a5adf2ae2e47",
+          "width": 177,
+          "x": 20029,
+          "y": 1070,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "a0e13c56-05d6-4049-a9e4-5ea58856cd4e",
+          "width": 310,
+          "x": 20203,
+          "y": 1039,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 58,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "8d498e86-43cb-46f6-a371-903796fe51f0",
+          "width": 177,
+          "x": 20515,
+          "y": 1066,
+          "zOrder": 115,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "layer": "",
+          "name": "Platform_Borders",
+          "persistentUuid": "cf4a3549-0947-49cc-9186-7011494ed4c2",
+          "width": 320,
+          "x": 20693,
+          "y": 1123,
+          "zOrder": 115,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11750,7 +12278,7 @@
                           },
                           "parameters": [
                             "",
-                            "473583__nox_sound__whoosh_rope.wav",
+                            "Audio\\473583__nox_sound__whoosh_rope.wav",
                             "",
                             "50",
                             ""
@@ -12174,7 +12702,7 @@
                       },
                       "parameters": [
                         "",
-                        "345299__scrampunk__okay.wav",
+                        "Audio\\345299__scrampunk__okay.wav",
                         "2",
                         "",
                         "",
@@ -12319,7 +12847,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Slime",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12333,6 +12860,106 @@
                   },
                   "parameters": [
                     "Blue_Slime",
+                    "Chicken",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AdvancedJump::HorizontalDash::IsDashing"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "HorizontalDash",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    "=",
+                    "Blue_Slime.X() - 50",
+                    "=",
+                    "Blue_Slime.Y() - 80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    "Animation",
+                    "=",
+                    "\"Died\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    "Animation",
+                    "=",
+                    "\"Died\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    "Animation"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Blue_Slime",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemy Group",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy",
                     "Chicken",
                     "",
                     "",
@@ -12385,7 +13012,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Blue_Slime",
+                    "Enemy",
                     "Chicken",
                     "",
                     "",
@@ -12406,73 +13033,14 @@
               "actions": [
                 {
                   "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "Blue_Slime",
-                    "=",
-                    "Blue_Slime.X() - 50",
-                    "=",
-                    "Blue_Slime.Y() - 100"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
                     "",
-                    "PUNCH_SQUELCH_HEAVY_01.wav",
+                    "Audio\\PUNCH_SQUELCH_HEAVY_01.wav",
                     "",
                     "20",
                     "1.5"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Blue_Slime",
-                    "Animation",
-                    "=",
-                    "\"Died\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Blue_Slime",
-                    "Animation",
-                    "=",
-                    "\"Died\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                  },
-                  "parameters": [
-                    "Blue_Slime",
-                    "Animation"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Blue_Slime",
-                    ""
                   ]
                 }
               ]
