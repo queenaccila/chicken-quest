@@ -2140,13 +2140,7 @@
         },
         {
           "folded": true,
-          "name": "Death_X",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "folded": true,
-          "name": "Death_Y",
+          "name": "Jumps",
           "type": "number",
           "value": 0
         }
@@ -8083,7 +8077,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7315786463753845,
+        "zoomFactor": 0.4303403802208149,
         "windowMask": false
       },
       "objectsGroups": [
@@ -10356,8 +10350,8 @@
           "name": "Bat",
           "persistentUuid": "7428a39c-30ea-412a-b83c-0ce01b68c7cb",
           "width": 100,
-          "x": 1414,
-          "y": 683,
+          "x": 1413,
+          "y": 712,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -12210,55 +12204,6 @@
           ],
           "animations": [
             {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Idle4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 8
-                          },
-                          {
-                            "x": 19,
-                            "y": 8
-                          },
-                          {
-                            "x": 19,
-                            "y": 24
-                          },
-                          {
-                            "x": 9,
-                            "y": 24
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Fly",
               "useMultipleDirections": false,
               "directions": [
@@ -12285,20 +12230,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12321,20 +12266,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12357,20 +12302,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12393,20 +12338,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12442,20 +12387,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12478,20 +12423,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12514,20 +12459,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12550,20 +12495,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12586,20 +12531,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12622,20 +12567,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 8
+                            "x": 7,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 8
+                            "x": 26,
+                            "y": 9
                           },
                           {
-                            "x": 19,
-                            "y": 24
+                            "x": 26,
+                            "y": 23
                           },
                           {
-                            "x": 9,
-                            "y": 24
+                            "x": 7,
+                            "y": 23
                           }
                         ]
                       ]
@@ -12997,41 +12942,117 @@
                     "Walk_Dust"
                   ]
                 }
-              ],
-              "events": [
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Jump and sound simulation"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
-                      },
-                      "parameters": [
-                        "Chicken",
-                        "PlatformerObject",
-                        "\"Jump\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "5b9930fb05c5d5896b5fcee8fb3f91e82536a81af773c5f1eff574155928e59d_Jump 9.aac",
-                        "",
-                        "70",
-                        ""
-                      ]
-                    }
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject",
+                    "\"Jump\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "5b9930fb05c5d5896b5fcee8fb3f91e82536a81af773c5f1eff574155928e59d_Jump 9.aac",
+                    "3",
+                    "70",
+                    "70",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Jumps",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Jumps",
+                    ">",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopSoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Chicken",
+                    "Jumps",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -13983,6 +14004,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Enemy Group",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14064,6 +14086,12 @@
                     "HorizontalDash",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -14172,6 +14200,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Slime",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14456,6 +14485,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bat",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14465,17 +14495,23 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "Bat",
                     "Animation",
                     "=",
-                    "\"Idle\""
+                    "\"Fly\""
                   ]
-                }
-              ],
-              "actions": [
+                },
                 {
                   "type": {
                     "value": "ActivateBehavior"
@@ -14483,53 +14519,7 @@
                   "parameters": [
                     "Bat",
                     "TimedBackAndForthMirroredMovement",
-                    ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Bat",
-                        "Animation",
-                        "=",
-                        "\"Fly\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ActivateBehavior"
-                      },
-                      "parameters": [
-                        "Bat",
-                        "TimedBackAndForthMirroredMovement",
-                        "yes"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Bat",
-                        "=",
-                        "Bat.Y() + 20"
-                      ]
-                    }
+                    "yes"
                   ]
                 }
               ]
@@ -14619,11 +14609,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ],
           "parameters": []
