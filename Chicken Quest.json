@@ -2145,7 +2145,22 @@
           "value": 0
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "RGBSplit",
+          "name": "Chromatic",
+          "doubleParameters": {
+            "blueX": 0,
+            "blueY": 10,
+            "greenX": 0,
+            "greenY": 0,
+            "redX": -10,
+            "redY": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "AdvancedJump",
@@ -8077,7 +8092,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4303403802208149,
+        "zoomFactor": 0.3768772036751307,
         "windowMask": false
       },
       "objectsGroups": [
